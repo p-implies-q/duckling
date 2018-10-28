@@ -22,6 +22,7 @@ import Duckling.Types
 import qualified Duckling.AmountOfMoney.NL.Rules as AmountOfMoney
 import qualified Duckling.Distance.NL.Rules as Distance
 import qualified Duckling.Duration.NL.Rules as Duration
+import qualified Duckling.Email.NL.Rules as Email
 import qualified Duckling.Numeral.NL.Rules as Numeral
 import qualified Duckling.Ordinal.NL.Rules as Ordinal
 import qualified Duckling.Time.NL.Rules as Time
@@ -43,7 +44,7 @@ langRules :: Some Dimension -> [Rule]
 langRules (This AmountOfMoney) = AmountOfMoney.rules
 langRules (This Distance) = Distance.rules
 langRules (This Duration) = Duration.rules
-langRules (This Email) = []
+langRules (This Email) = Email.rules
 langRules (This Numeral) = Numeral.rules
 langRules (This Ordinal) = Ordinal.rules
 langRules (This PhoneNumber) = []

@@ -337,6 +337,8 @@ library
                      , Duckling.Email.FR.Rules
                      , Duckling.Email.IT.Corpus
                      , Duckling.Email.IT.Rules
+                     , Duckling.Email.NL.Corpus
+                     , Duckling.Email.NL.Rules
                      , Duckling.Email.Corpus
                      , Duckling.Email.Rules
                      , Duckling.Email.Types
